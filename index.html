@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html ()>
+<head>
+    <meta charset="UTF-8">
+<!--Meta dato para que la pagina en otros dispositivos no agregue barra de desplazamiento-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los mejores cursos para aprender Front-End</title>
+<!--Enlazar el archivo CSS con el HTML-->
+    <link href="./assets/css/main.css" rel="stylesheet">
+<!--Enlace para font-awsome-->
+    <link href="./font-awesome/css/all.css" rel="stylesheet">
+<!--Link para normalizar estilos entre diferentes dispositivos (optamos por la opcion de solo copiar el link)-->
+    <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
+<!--Link de la fuente--> 
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap" rel="stylesheet">
+<!--Link para las animaciones https://animate.style/-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="content animate__animated animate__fadeInDown">
+            <header>
+                <h1 class="title">Los mejores cursos para aprender Front-End</h1>
+            </header>
+            <table class="table">
+                <!--THEAD encabezados de las columnas-->
+                <thead>
+                    <th>#</th>
+                    <th>Nombre</th>
+                    <th>Enlace</th>
+                    <th>Calificacion</th>
+                    <th>Más Info.</th>
+                </thead>
+                <!--TR= filas   TD=celdas   -->
+                <tbody>
+                    <tr>
+                        <!--Siempre el numero de celdas es igual al numero de encabezados-->
+                        <!--Si tenemos 4 encabezados necesitamos tener 4 de celdas-->
+                        <td>1</td>
+                        <td>Curso Profesional Desarrollo Web</td>
+                        <td> <a href="https://codigofacilito.com/cursos/frontend-profesional" target="_blank"> Click </a></td>
+                        <td>
+                            <!--Pagina para encontrar iconos: https://fontawesome.com/icons-->
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </td>
+                        <td><a href="paginas/pagina1.html"> Ver más</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Curso de CSS</td>
+                        <td><a href="https://codigofacilito.com/cursos/css-fundamentos" target="_blank">Click</a></td>
+                        <td>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </td>
+                        <td><a href="paginas/pagina2.html">Ver más</a></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Curso profesional de JavaScript</td>
+                        <td><a href="https://codigofacilito.com/cursos/javascript-profesional" target="_blank">Click</a></td>
+                        <td>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </td>
+                        <td><a href="paginas/pagina3.html">Ver más</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+<!--La etiqueta script dentro de HTML solo se usa para cosas muy pequeñas, si son codigos de 10 o + lineas se crea un archivo aparte y siempre se coloca antes de que se cierre body.-->
+    <script src="./javascript/main.js"></script>
+
+</body>
+</html>
